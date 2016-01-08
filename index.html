@@ -11,24 +11,50 @@
 <body>
 	<section id="wrapper">
 		<aside>
-			<nav id="personal-bookmarks">
-				<h2>Personal bookmarks</h2>
-				<ul>
-					<li>All</li>
-					<li>Unread</li>
+			<section class="intro">
+				<img class="star" src="img/star.png">
+				<h3>bookmarks</h2>
+				<img class="persona-image" src="img/grey.png">
+				<h3>Jonathan M.</h3>
+			</section>
+			<hr>
+			<nav id="feed">
+				<section class="highlight">
+					<img id="hamclick" class="hamburger" src="img/hamburger.png">
+					<h2>Feed</h2>
+				</section>
+				<ul class="content-section">
+					<img id="techclick" class="downarrow" src="img/arrow-down.png">
+					<h3>Tech</h3>
+					<ul>
+						<li class="tech">John B.</li>
+						<li class="tech">Peter de K.</li>
+						<li class="tech">Hans van U.</li>	
+					</ul>
+				</ul>
+				<hr>
+				<ul class="content-section">
+					<img id="designclick" class="downarrow" src="img/arrow-down.png">
+					<h3>Design</h3>
+					<ul>
+						<li class="design">Gwen van P.</li>
+						<li class="design">Albert V.</li>
+						<li class="design">Dominique E.</li>	
+					</ul>
 				</ul>
 			</nav>
-			<nav id="follower-bookmarks">
-				<h2>Follower bookmarks</h2>
-				<ul>
+			<hr>
+			<nav id="explore">
+				<h3 class="align-aside" >Explore</h3>
+				<ul class="option-section">
 					<li>Popular</li>
 					<li>Recent add</li>
 					<li>Discover</li>
 				</ul>
 			</nav>
 			<nav id="settings">
-				<h2>Settings</h2>
-				<ul>
+				<h3 class="align-aside">Settings</h3>
+				<ul class="option-section">
 					<li>Remove</li>
 					<li>Tags</li>
 					<li>Reactions</li>
@@ -47,6 +73,7 @@
 			</section>
 		</main>
 	</section>
+	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -1,6 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
 body {
-	font-family: "Arial";
+	font-family: "Open Sans";
 	margin: 0;
+	color: #FFF;
 }
 
 #wrapper {
@@ -29,17 +34,33 @@ main {
 	float: right;
 }
 
-aside h2 {
-	padding: 0 0 0 10px;
+aside h2, aside h3 {
+	padding: 0 0 0 5px;
+	font-family: "Roboto Slab";
+	color: #FFF;
 }
 
 aside ul {
-	background-color: #BBB;
 	width: 100%;
 }
 
 aside li {
 	height: 25px;
+	list-style-type: none;
+}
+
+aside ul ul li {
+	height: 25px;
+	list-style-image: url("../img/menu-dot.png");
+
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	margin: 20px 0 5px 0;
+    border-top: 1px solid #313649;
+    border-bottom: 0px;
 }
 
 #settings {
@@ -50,4 +71,44 @@ aside li {
 	width: 90%;
 	margin: 20px auto;
 	text-align: center;
+}
+
+.intro {
+	min-width: 100%;
+	padding-left: 5%;
+}
+
+.star { 
+	float: left;
+	padding: 10px;
+}
+
+.hamburger {
+	float: left;
+	padding: 0 8px 0 5%;
+}
+
+.highlight {
+	background-color: #15a9da;
+}
+
+.persona-image {
+	float: left;
+	padding: 0 10px 0 5%;
+}
+
+.downarrow {
+	float: left;
+	padding: 7px;
+}
+
+.align-aside {
+	padding-left: 20%;
+}
+
+.content-section {
+	padding-left: 10%;
+}
+.option-section {
+	padding-left: 18%;
 }
