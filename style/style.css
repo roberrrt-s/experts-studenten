@@ -28,20 +28,29 @@ aside {
 main {
 	width: 80%;
 	height: 100%;
-	background-color: #AAA;
+	background-color: #FFF;
 	margin: 0;
 	padding: 0;
 	float: right;
+	color: #000;
+	max-height: 100vh;
+	overflow: auto;
 }
 
-aside h2, aside h3 {
+aside h2, aside h3, aside h5 {
 	padding: 0 0 0 5px;
 	font-family: "Roboto Slab";
 	color: #FFF;
 }
 
+aside h5, img + h3 {
+	margin: 0;
+}
+
 aside ul {
 	width: 100%;
+	padding-top: 4px;
+	margin-left: -4%;
 }
 
 aside li {
@@ -49,13 +58,18 @@ aside li {
 	list-style-type: none;
 }
 
-aside ul ul li {
+aside ul ul li.tech {
 	height: 25px;
 	list-style-image: url("../img/menu-dot.png");
-
+	padding-left: 5%;
+}
+aside ul ul li.design {
+	height: 25px;
+	list-style-image: url("../img/menu-dot-2.png");
+	padding-left: 5%;
 }
 
-hr {
+aside hr {
 	width: 100%;
 	height: 1px;
 	margin: 20px 0 5px 0;
@@ -68,9 +82,68 @@ hr {
 }
 
 #search {
-	width: 90%;
-	margin: 20px auto;
+	width: 100%;
+	height: 70px;
 	text-align: center;
+	background-color: #FFF;
+}
+
+.search-logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	float: left;
+	opacity: 0.5;
+}
+
+.search-item {
+	float: left;
+	height: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #709d3c;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 1px;
+	color: #FFF;
+	box-sizing: border-box;
+	padding: 3px;
+}
+
+.search-cross {
+	float: left;
+	margin-top: 20px;
+	height: 30px;
+	box-sizing: border-box;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #709d3c;
+}
+
+#menu {
+	background-color: #f4f8fb;
+	height: 70px;
+	border-top: solid 1px #e1ecf3;
+	border-bottom: solid 1px #e1ecf3;
+}
+
+.menu-item {
+	width: 25%;
+	height: 70px;
+	text-align: center;
+	color: #a7b4c1;
+	font-weight: 700;
+	font-family: "Roboto Slab";
+	font-size: 1.1em;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	border-right: solid 1px #e1ecf3;
+}
+.menu-item:first {
+	border-left: solid 1px #e1ecf3;
 }
 
 .intro {
@@ -88,8 +161,13 @@ hr {
 	padding: 0 8px 0 5%;
 }
 
+#feed {
+	background-color: #3e445c;
+}
+
 .highlight {
-	background-color: #15a9da;
+	background-color: #3ab34d;
+	padding-left: 5%;
 }
 
 .persona-image {
@@ -103,12 +181,159 @@ hr {
 }
 
 .align-aside {
-	padding-left: 20%;
+	padding-left: 13%;
+}
+
+.aside-options {
+	padding-left: 4%;
+}
+
+.aside-options > h3 {
+	margin: 0;
 }
 
 .content-section {
 	padding-left: 10%;
+	padding-bottom: 15px;
 }
+
+.content-section h3 {
+	margin-left: 10%;
+}
+
 .option-section {
 	padding-left: 18%;
+}
+
+.digit {
+	float: right;
+	width: 20px;
+	height: 25px;
+	margin-right: 30%;
+	box-sizing: border-box;
+	text-align: center;
+	color: #323a4c;
+}
+
+#content {
+	width: 100%;
+	background-color: #d0d7de;
+	height: auto;
+	float: left;
+	border-radius: 3px;
+}
+
+.content-item {
+	margin: 50px auto 50px auto;
+	width: 600px;
+	height: 400px;
+	background-color: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-top {
+	height: 200px;
+	width: 600px;
+	float: left;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+
+}
+
+.content-bottom {
+	float: left;
+	height: 165px;
+	width: 600px;
+	background-color: #eff4f7;
+	font-family: "Roboto Slab";
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.expert-info img {
+	padding-top: 15px;
+	padding-left: 10%;
+	padding-right: 10px;
+	float: left;
+}
+
+.expert-name-job {
+	height: 85px;
+	padding-top: 15px;
+	font-family: "Roboto Slab";
+}
+
+.expert-name-job h3, .expert-name-job h4 {
+	margin: 0;
+	padding-left: 10px;
+}
+
+.expert-name-job h3 {
+	color: #5a5a5a;
+}
+
+.expert-name-job h4 {
+	color: #a4a3a4;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.follow-button {
+	background-color: #a48ad4;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin:;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+
+.content-top h2 {
+	padding-top: 5px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-weight: 400;
+	margin: 0;
+}
+
+.content-bottom h2 {
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.content-bottom p {
+	padding-left: 10%;
+	padding-right: 10%;
+	position: relative;
+}
+
+.content-footer {
+	height: 35px;
+	width: 600px;
+	background-color: #eff4f7;
+	font-family: "Roboto Slab";
+	float: left;
+}
+
+.content-footer img {
+	float: right;
+}
+
+.readmore {
+	float: right;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+
+	aside {
+		display: none;
+	}
+	main {
+		width: 100%;
+	}
+
 }
