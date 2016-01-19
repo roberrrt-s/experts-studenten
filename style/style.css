@@ -47,13 +47,10 @@ aside h2, aside h3, aside h5 {
 	color: #FFF;
 }
 
-<<<<<<< HEAD
 aside h5 {
 	padding-left: 0px;
 }
 
-=======
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 aside h5, img + h3 {
 	margin: 0;
 }
@@ -95,10 +92,6 @@ aside hr {
 #search {
 	width: 100%;
 	height: 70px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	text-align: center;
 	background-color: #FFF;
 }
@@ -124,11 +117,7 @@ aside hr {
 	margin-right: 1px;
 	color: #FFF;
 	box-sizing: border-box;
-<<<<<<< HEAD
 	padding: 3px 8px 3px 8px;
-=======
-	padding: 3px;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .search-cross {
@@ -146,7 +135,6 @@ aside hr {
 
 #menu {
 	background-color: #f4f8fb;
-<<<<<<< HEAD
 	height: 60px;
 	border-top: solid 1px #e1ecf3;
 	border-bottom: solid 0px #e1ecf3;
@@ -181,70 +169,6 @@ aside hr {
 	height: 60px;
 	text-align: center;
 	color: #9CB1C1;
-=======
-	height: 70px;
-	border-top: solid 1px #e1ecf3;
-	border-bottom: solid 1px #e1ecf3;
-}
-
-.menu-item {
-	width: 25%;
-	height: 70px;
-	text-align: center;
-	color: #9CB1C1;
-=======
-	text-align: center;
-	background-color: #FFF;
-}
-
-.search-logo {
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 10px;
-	height: 30px;
-	width: 30px;
-	float: left;
-	opacity: 0.5;
-}
-
-.search-item {
-	float: left;
-	height: 30px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	background-color: #709d3c;
-	margin-top: 20px;
-	margin-left: 10px;
-	margin-right: 1px;
-	color: #FFF;
-	box-sizing: border-box;
-	padding: 3px;
-}
-
-.search-cross {
-	float: left;
-	margin-top: 20px;
-	height: 30px;
-	box-sizing: border-box;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	background-color: #709d3c;
-}
-
-#menu {
-	background-color: #f4f8fb;
-	height: 70px;
-	border-top: solid 1px #e1ecf3;
-	border-bottom: solid 1px #e1ecf3;
-}
-
-.menu-item {
-	width: 25%;
-	height: 70px;
-	text-align: center;
-	color: #a7b4c1;
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	font-weight: 700;
 	font-family: "Roboto Slab";
 	font-size: 1.1em;
@@ -252,7 +176,6 @@ aside hr {
 	padding: 20px;
 	box-sizing: border-box;
 	border-right: solid 1px #e1ecf3;
-<<<<<<< HEAD
 	cursor: pointer;
 }
 .menu-item:first {
@@ -262,11 +185,6 @@ aside hr {
 .active-menu-item {
 	background-color: #3ab34d;
 	color: #FFF;
-=======
-}
-.menu-item:first {
-	border-left: solid 1px #e1ecf3;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .intro {
@@ -300,7 +218,6 @@ aside hr {
 
 .highlight {
 	background-color: #3ab34d;
-<<<<<<< HEAD
 	height: 35px;
 	margin-top: 35px;
 }
@@ -310,9 +227,6 @@ aside hr {
 	line-height: 180%;
 	letter-spacing: 1px;
 	font-weight: 550;
-=======
-	padding-left: 5%;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .persona-image {
@@ -327,7 +241,6 @@ aside hr {
 
 .align-aside {
 	padding-left: 13%;
-<<<<<<< HEAD
 	letter-spacing: 0.5px;
 }
 
@@ -340,12 +253,6 @@ aside hr {
 
 .aside-options {
 	padding-left: 23px;
-=======
-}
-
-.aside-options {
-	padding-left: 4%;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .aside-options > h3 {
@@ -355,7 +262,6 @@ aside hr {
 .content-section {
 	padding-left: 10%;
 	padding-bottom: 15px;
-<<<<<<< HEAD
 }
 
 .content-section h3 {
@@ -365,16 +271,6 @@ aside hr {
 
 .option-section {
 	padding-left: 17%;
-=======
-}
-
-.content-section h3 {
-	margin-left: 10%;
-}
-
-.option-section {
-	padding-left: 18%;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .digit {
@@ -384,15 +280,7 @@ aside hr {
 	margin-right: 30%;
 	box-sizing: border-box;
 	text-align: center;
-<<<<<<< HEAD
 	color: #66749B;
-=======
-<<<<<<< HEAD
-	color: #66749B;
-=======
-	color: #323a4c;
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 #content {
@@ -404,77 +292,40 @@ aside hr {
 }
 
 .content-item {
-<<<<<<< HEAD
 	margin: 50px auto 5px auto;
 	width: 600px;
 	height: 420px;
-=======
-	margin: 50px auto 50px auto;
-	width: 600px;
-	height: 400px;
-	background-color: #FFF;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content-top {
-<<<<<<< HEAD
 	height: 275px;
-=======
-	height: 200px;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	width: 600px;
 	float: left;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-<<<<<<< HEAD
 	background-color: #FFF;
-=======
-
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .content-bottom {
 	float: left;
-<<<<<<< HEAD
 	height: 110px;
 	width: 600px;
 	background-color: #eff4f7;
-=======
-	height: 165px;
-	width: 600px;
-	background-color: #eff4f7;
-<<<<<<< HEAD
-=======
-	font-family: "Roboto Slab";
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	text-align: left;
 	box-sizing: border-box;
 }
 
 .expert-info img {
 	padding-top: 15px;
-<<<<<<< HEAD
 	padding-left: 9%;
-=======
-	padding-left: 10%;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	padding-right: 10px;
 	float: left;
 }
 
 .expert-name-job {
 	height: 85px;
-<<<<<<< HEAD
 	padding-top: 23px;
-=======
-<<<<<<< HEAD
-	padding-top: 23px;
-=======
-	padding-top: 15px;
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	font-family: "Roboto Slab";
 }
 
@@ -484,32 +335,17 @@ aside hr {
 }
 
 .expert-name-job h3 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	color: #4A4A4A;
 }
 
 .expert-name-job h4 {
 	color: #B3B3B3;
-<<<<<<< HEAD
-=======
-=======
-	color: #5a5a5a;
-}
-
-.expert-name-job h4 {
-	color: #a4a3a4;
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	font-weight: 400;
 	margin-bottom: 5px;
 }
 
 .follow-button {
 	background-color: #a48ad4;
-<<<<<<< HEAD
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 3px;
@@ -521,31 +357,10 @@ aside hr {
 
 .content-top h2 {
 	padding-top: 15px;
-=======
-	padding-left: 2%;
-	padding-right: 2%;
-<<<<<<< HEAD
-	padding-top: 1px;
-	padding-bottom: 3px;
-	border-radius: 5px;
-	font-size: 1em;
-=======
-	padding-top: 3px;
-	padding-bottom: 3px;
-	margin:;
-	border-radius: 5px;
-	font-size: 1.2em;
->>>>>>> origin/master
-}
-
-.content-top h2 {
-	padding-top: 5px;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	padding-left: 10%;
 	padding-right: 10%;
 	font-weight: 400;
 	margin: 0;
-<<<<<<< HEAD
 	float: left;
 }
 
@@ -566,50 +381,18 @@ aside hr {
 	font-family: "Open Sans";
 	font-size: 1.8em;
 	font-weight: 300;
-=======
-}
-
-.content-bottom h2 {
-	padding-top: 20px;
-	padding-left: 10%;
-	padding-right: 10%;
-<<<<<<< HEAD
-	font-family: "Roboto Slab";
-=======
->>>>>>> origin/master
-}
-
-.content-bottom p {
-	padding-left: 10%;
-	padding-right: 10%;
-	position: relative;
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .content-footer {
 	height: 35px;
 	width: 600px;
 	background-color: #eff4f7;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-	font-family: "Roboto Slab";
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 	float: left;
 }
 
 .content-footer img {
 	float: right;
-<<<<<<< HEAD
 	margin-left: 24px;
-=======
-<<<<<<< HEAD
-	margin-left: 24px;
-=======
->>>>>>> origin/master
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 }
 
 .readmore {
@@ -618,7 +401,6 @@ aside hr {
 	padding: 5px;
 }
 
-<<<<<<< HEAD
 .content-options {
 	width: 600px;
 	height: 50px;
@@ -641,8 +423,6 @@ aside hr {
 	background-color: #4F7700;
 }
 
-=======
->>>>>>> 5dcc50a0303c728c6bc00619fd107164966768e9
 @media screen and (max-width: 800px) {
 
 	aside {
